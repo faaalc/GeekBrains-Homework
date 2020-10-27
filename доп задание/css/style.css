@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+main {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.bg-video {
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+.text {
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: center;
+}
+.wrapper {
+    border: 2px solid #fff;
+    width: 50%;
+    background-color: rgba(255, 255, 255, .2);
+    padding: 10px;
+}
+#move:hover {
+    border: 2px solid #fff;
+    -webkit-animation: mymove 1s; /* Chrome, Safari, Opera */
+    animation: mymove 1s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+#move {
+    border: 2px solid #fff;
+    -webkit-animation: mymove2 1s; /* Chrome, Safari, Opera */
+    animation: mymove2 1s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes mymove {
+    from {
+      padding: 10px;
+      animation-timing-function: ease-out;
+    }
+    to {
+      padding: 150px;
+      animation-timing-function: ease-out;
+    }
+}
+
+@keyframes mymove2 {
+    from {
+      padding: 150px;
+      animation-timing-function: ease-in;
+    }
+    to {
+      padding: 10px;
+      animation-timing-function: ease-in;
+    }
+}
