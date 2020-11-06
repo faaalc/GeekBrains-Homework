@@ -635,15 +635,15 @@ body {
 }
 
 .mobile {
-    min-height: 616px;
-    padding: 80px 400px 0 870px;
+    min-height: 695px;
+    padding: 195px 400px 0 870px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     background-image: url(../img/phone.png);
     background-size: auto;
     background-repeat: no-repeat;
-    background-position: 420px;
+    background-position: left 30% bottom 0%;
     background-color: #fbfaf8;
 }
 .mobile-title {
