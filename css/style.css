@@ -1534,6 +1534,20 @@ body {
     .projects-button:last-child {
         margin: 0 10px 10px 0;
     }
+    .projects-article-btn-link {
+        left: 30%;
+    }
+    .projects-article-btn-lupa {
+        right: 30%;
+    }
+    .projects-article:hover .projects-article-btn-link {
+        top: 25%;
+        transition: 0.3s;
+    }
+    .projects-article:hover .projects-article-btn-lupa {
+        top: 25%;
+        transition: 0.3s;
+    }
 
     .mobile {
         padding: 30px;
